@@ -1,14 +1,14 @@
-asgiref==3.2.10
-astroid==2.4.2
-Django==3.0.8
-djangorestframework==3.11.0
-isort==4.3.21
-lazy-object-proxy==1.4.3
-mccabe==0.6.1
-pylint==2.5.3
-pytz==2020.1
-six==1.15.0
-sqlparse==0.3.1
-toml==0.10.1
+asgiref==3.2.10 f
+astroid==2.4.2 f 
+Django==3.0.8 f
+djangorestframework==3.11.0 f
+isort==4.3.21 f 
+lazy-object-proxy==1.4.3 f 
+mccabe==0.6.1 f 
+pylint==2.5.3 f
+pytz==2020.1 f
+six==1.15.0 f 
+sqlparse==0.3.1 f
+toml==0.10.1 f
 typed-ast==1.4.1
-wrapt==1.12.1
+wrapt==1.12.1 f
