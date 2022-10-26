@@ -20,4 +20,3 @@ class ClienteSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError({'celular':"O número de ceular deve seguir este modelo: 11 91234-1234 (respeitando os espaços e traços)"})
    
         return data
-        
