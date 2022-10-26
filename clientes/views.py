@@ -17,3 +17,4 @@ class ClientesViewSet(viewsets.ModelViewSet):
     authentication_classes = [BasicAuthentication]
 
     permission_classes = [IsAuthenticated]
+    
