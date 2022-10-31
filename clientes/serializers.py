@@ -14,8 +14,8 @@ class ClienteSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError({'cpf':"Número do CPF inválido (Caso queira testar gere um no site: https://www.4devs.com.br/gerador_de_cpf)"})
         # if not nome_valido(data['nome']):
         #     raise serializers.ValidationError({'nome':" Não inclua números neste campo"})
-        if not rg_valido(data['rg']):
-            raise serializers.ValidationError({'rg':"O rg deve ter 9 dígitos"})
+        if not rg_valido(data['ra']):
+            raise serializers.ValidationError({'ra':"O ra deve ter 9 dígitos"})
         if not celular_valido(data['celular']):
             raise serializers.ValidationError({'celular':"O número de ceular deve seguir este modelo: 11 91234-1234 (respeitando os espaços e traços)"})
    
